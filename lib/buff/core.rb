@@ -57,7 +57,7 @@ module Buff
       end
 
       def handle_response_code(response)
-        error = response.body
+        puts response.body
         raise Buff::Error::APIError
       end
     end

@@ -1,3 +1,3 @@
 module Buff
-  VERSION = "0.0.7"
+  VERSION = "0.0.6"
 end
